@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+      </head>      
+<body>
+
+  <nav class="navbar">
+    <a id="logo-name" href="#home" class="nav-logo">VerCode</a>
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="#about">About</a></li>
+      <li class="nav-item"><a href="#skills">Skills</a></li>
+      <li class="nav-item"><a href="#projects">Projects</a></li>
+      <li class="nav-item"><a href="#projects">Achievements</a></li>
+      <li class="nav-item"><a href="#contact">Contact Me</a></li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+</nav>
+
+<!-- Homepage -->
+<header id="home">
+  <div class="container1">
+    <img src="picture.jpg" alt="Profile Picture" class="profile-pic">
+    <h2 id="name">Mark Oliver Coronel</h2><br>
+    <h4 id="role">Data Analyst | UI/UX Designer</h4>
+    <p id="quote">"Transforming ideas into innovative systems that drive meaningful change".</p>
+  </div>
+</header>
+
+
+  <!-- About Me -->
+  <section id="about">
+    <div class="container1">
+        <hr>
+        <br>
+      <h2>About Me</h2>
+      <p id="aboutself">
+        As a Information Systems graduate with technical expertise, problem-solving skills, and inventiveness specializes in systems analysis, database administration, software development, and IT project management. They prioritize user needs, corporate processes, and providing scalable solutions. They excel in collaborative settings, transforming complicated technical concepts into practical solutions.
+      </p><br>
+      <a href="Mark Oliver Coronel Resume.pdf" target="_blank"><button class="resume">View Resume</button></a>
+    </div>
+  </section>
+
+  <!-- Skills and Tools -->
+  <section id="skills">
+    <div class="container2">
+        <hr>
+        <br>
+      <h2>Skills</h2>
+      <ul id="skills1">
+        <li>Data analysis and statistical techniques</li>
+        <li>Data manipulation and cleaning</li>
+        <li>Programming languages: Python, SQL</li>
+        <li>Data visualization tools: Tableau, Excel</li>
+        <li>Strong analytical and problem-solving skills</li>
+        <li>Excellent communication and collaboration abilities</li>
+        <li>Attention to detail and accuracy</li>
+        <li>Continuous learning and adaptability</li>
+      </ul>
+    </div>
+  </section>  
+
+ <!-- Projects Section -->
+<section id="projects">
+  <div class="container3">
+    <hr>
+    <br>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project Title</h3>
+      <p>Description: An application can track your sleep and your physical fitness.</p>
+      <p>Programming Languages Used: Java</p>
+    </div>
+  </div>
+</section>
+
+<!-- Card Section -->
+<div class="card">
+  <img src="fitpulse.png" alt="FitPulse" class="card-img">
+  <div class="card-content">
+    <h3 class="card-title">FitPulse</h3>
+    <p class="card-text">This application helps you stay healthy.</p>
+  </div>
+</div>
+
+
+    <section id="achievements">
+    <div class="container4">
+        <hr>
+        <br>
+        <h2>Achivements</h2>
+        <ul>
+            <li>Optimized data processes.
+                Streamlined a data pipeline, lowering processing time by 30% and improving report delivery to aid decision making.</li>   
+            <li>Data Visualization Excellence
+                Created dynamic dashboards with tools such as Tableau and Power BI, improving executive engagement with analytics by 40%.</li>
+            <li>Predictive analytics
+                Created machine learning models that predicted customer attrition with 85% accuracy, resulting in a 10% retention boost.</li>
+            <li>Impactful Business Insights
+                Conducted a deep dive analysis that revealed $500K in revenue prospects from improved pricing tactics.</li>
+            <li>Data Accuracy Champion
+                Led a data cleansing program that improved database accuracy by 25% and increased team efficiency.</li>
+        </ul>
+        </div>
+    </section>  
+
+    <section id="contact">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <input type="text" id="name1" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="send-message" id="send-message">Send Message</button>
+        </form>
+        <p id="message-status"></p>
+      </div>
+    </section>
+    
+  <!-- Footer -->
+  <footer>
+    <div class="container5">
+      <p>
+        <a href="#home"><i class="fas fa-home" id="homes"></i> Home</a> | 
+        <a href="#about"><i class="fas fa-user" id="abt"></i> About Me</a> | 
+        <a href="#projects"><i class="fas fa-project-diagram" id="prj"></i> Projects</a> | 
+        <a href="#contact"><i class="fas fa-envelope" id="ctn"></i> Contact</a>
+      </p>
+      <div class="direct-links">
+        <p id="footer-link">
+          <i class="fas fa-envelope email-gradient" id="mail"></i> Email: <a href="mailto:oliver002118@gmail.com">oliver002118@gmail.com</a> |
+          <i class="fab fa-facebook" id="fb"></i> <a href="https://www.facebook.com/markoliver.ccoronel" target="_blank">Facebook</a> | 
+          <i class="fab fa-instagram instagram-gradient" id="ig"></i> <a href="https://www.instagram.com/oliiicoronel/profilecard/?igsh=NHdiYWN5dm9sbzVk" target="_blank">Instagram</a>
+        </p>
+      </div>  
+      <p>© 2024 Mark Oliver Coronel</p>
+    </div>
+  </footer>
+  
+  <script src="navbar.js"></script>
+
+</body>
+</html>
